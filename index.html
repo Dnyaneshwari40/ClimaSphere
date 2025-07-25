@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>WeatherWise</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="weather-app">
+    
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>WeatherWise</h2>
+
+      <div class="status">
+        <p><strong>Status:</strong> <span id="statusText">--</span></p>
+        <div class="bar"><div class="danger-level" id="dangerLevel"></div></div>
+      </div>
+
+      <input type="text" id="cityInput" placeholder="🌍 Enter city..." />
+      <button onclick="getWeather()">Get Weather</button>
+
+      <div class="map-section">
+       <img src="rainy__icon.png" class="circular-img" />
+
+        <p id="mapCity">--</p>
+      </div>
+    </div>
+
+    <!-- Main Panel -->
+    <div class="main-panel">
+      <div class="location-info">
+        <h1 id="cityName">--</h1>
+        <p><strong>Temperature:</strong> <span id="temperature">--°C</span></p>
+        <p><strong>High / Low:</strong> <span id="highLow">-- / -- °C</span></p>
+        <p id="dateTime">--</p>
+      </div>
+
+      <div class="weather-description">
+        <p id="weatherDesc">--</p>
+      </div>
+
+      <div class="forecast-graph" id="forecastGraph">
+        <!-- Will be filled dynamically -->
+      </div>
+
+      <div class="recently-searched" id="recentCities">
+        <h3>Recently Searched:</h3>
+        <div class="city-boxes" id="cityBoxes"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
