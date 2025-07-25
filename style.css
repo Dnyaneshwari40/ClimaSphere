@@ -115,9 +115,9 @@ body {
   color: #bbb;
 }
 .circular-img {
-  width: 150px;           /* Make width and height equal */
+  width: 150px;           
   height: 150px;
-  border-radius: 80%;     /* This gives a perfect circle */
+  border-radius: 80%;    
   background-size: cover;
   background-position: center;
   overflow: hidden;
