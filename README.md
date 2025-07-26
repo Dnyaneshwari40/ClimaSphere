@@ -14,6 +14,8 @@ ClimaSphere allows users to:
 - Access a 5-day average temperature forecast
 - Revisit recent city searches for quick access
 
+---
+
  *Features*
 
 - Real-time weather data from OpenWeatherMap API
@@ -21,6 +23,8 @@ ClimaSphere allows users to:
 - Forecast graph for the upcoming 5 days
 - Recently searched city history (up to 5 cities)
 - Custom image assets for weather visuals
+
+---
 
  *Technologies Used*
 
