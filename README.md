@@ -23,7 +23,7 @@ ClimaSphere is a sleek, modern weather forecasting web application that delivers
 
 ---
 
- *Technologies Used*
+ **Technologies Used**
 ---
 - Languages: HTML, CSS, JavaScript.
 - API: OpenWeatherMap API
