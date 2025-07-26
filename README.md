@@ -1,7 +1,10 @@
  *ClimaSphere*
 
+ ----
+
 ClimaSphere is a modern weather forecasting web application that provides real-time weather updates, temperature indicators, and a 5-day forecast using data from the OpenWeatherMap API. Designed with a sleek user interface and a responsive layout, it helps users quickly access current conditions for any city around the world.
 
+---
  *Overview*
 
 ClimaSphere allows users to:
