@@ -1,5 +1,4 @@
 **ClimaSphere : Decoding the Atmosphere with Precision and Beauty.**
-
  ----
 **Overview**
 ---
