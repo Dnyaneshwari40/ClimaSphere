@@ -16,13 +16,9 @@ ClimaSphere is a sleek, modern weather forecasting web application that delivers
 **Features**
 ---
 - Real-time weather data integration via OpenWeatherMap API
-
 - Color-coded temperature danger bar for visual feedback
-
 - Dynamic 5-day forecast chart with daily temperature averages
-  
-- History of your 5 most recent city searches
-  
+- History of your 5 most recent city searches  
 - Clean UI with custom-designed weather icons and image assets
 
 ---
